@@ -1,0 +1,50 @@
+body{
+    background-color: lavender;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    
+}
+h3{
+
+}
+
+/*Style a class*/
+.card{
+    width: 500px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+}
+
+.footer{
+    width: 500px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+
+}
+
+.right{
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(193, 238, 226);
+}
+
+.left{
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(193, 238, 226);
+}
+/*Style a id*/
+#btn{
+
+}
+
