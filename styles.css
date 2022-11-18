@@ -1,50 +1,84 @@
 body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     background-color: lavender;
-}
-
-h1{
     font-family: 'Lato', sans-serif;
-    
+    align-items: center;
+    margin-top: 3%;
 }
-h3{
 
-}
+
 
 /*Style a class*/
 .card{
-    width: 500px;
-    border: 15px;
-    padding: 50px;
-    margin: 20px;
+    width: 80%;
+    padding: 5%;
+    height: 70%;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+
 }
 
 .footer{
-    width: 500px;
-    border: 15px;
-    padding: 50px;
-    margin: 20px;
-    background-color: white;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    padding: 2%;
+    margin-bottom: -2%;
+
+
+
 
 }
 
 .right{
-    width: 300px;
-    border: 15px;
-    padding: 50px;
-    margin: 20px;
-    background-color: rgb(193, 238, 226);
+    width: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
 }
 
 .left{
-    width: 300px;
-    border: 15px;
-    padding: 50px;
-    margin: 20px;
-    background-color: rgb(193, 238, 226);
+    width: 50%;
+    background-color: lavender;
+    padding: 3%;
+}
+
+img{
+    width: 70%;
+    justify-content: center;
+}
+
+.btn-container{
+    padding-top: 5%;
 }
 /*Style a id*/
-#btn{
-
+.btn{
+    border: 1px solid;
+    padding: 20px;
+    color: green;
 }
 
+a{
+    display: inline-block;
+    width: 30%;
+    text-decoration: none;
+    text-align: center;
+    width: 40%;
+}
+
+.botton-btn{
+    padding-top: 2%;
+}
+
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 5px;
+    text-decoration: none;
+    color: black;
+}
